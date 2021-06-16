@@ -1,3 +1,7 @@
+# 최빈값 찾기
+# 그러기 위해선
+# 알파벳의 빈도수를 세는 방법
+
 def find_alphabet_occurrence_array(string):
     # 초기 array 설정
     alphabet_occurrence_array = [0] * 26
