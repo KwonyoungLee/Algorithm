@@ -21,7 +21,8 @@ class LinkedList:
             cur = cur.next
 
     # 가장 첫번째 있는 node를 지정해 주고
-    # 번째 까지 next next 해준다.
+    # index 까지 next 따라간다.
+    # 그 값을 반환
     def get_node(self, index):
         node = self.head
         count = 0
